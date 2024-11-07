@@ -191,6 +191,7 @@ public class ProductController {
             } catch (Exception ex) {
                 System.out.println("Exception: " + ex.getMessage());
             }
+            
             // delete the product
             repo.delete(product);
 
